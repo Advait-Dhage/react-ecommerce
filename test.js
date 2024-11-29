@@ -1613,3 +1613,4 @@ const brandResults=brands.map(c=>({value:c,label:c,checked:false}))
 console.log(brandResults)
 console.log(categoriesResults)
 
+console.log(2+3)
