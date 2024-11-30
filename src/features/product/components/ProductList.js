@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { selectCount,selectAllProducts, fetchAllProductsAsync } from "../productSlice";
+import { selectAllProducts, fetchAllProductsAsync,fetchProductsByFiltersAsync } from "../productSlice";
 import { ChevronLeftIcon, ChevronRightIcon,StarIcon } from "@heroicons/react/20/solid";
 import {
   Dialog,
@@ -23,14 +23,11 @@ import {
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
-import { fetchAllProducts } from "../productApi";
 
 const sortOptions = [
-  { name: "Most Popular", href: "#", current: true },
-  { name: "Best Rating", href: "#", current: false },
-  { name: "Newest", href: "#", current: false },
-  { name: "Price: Low to High", href: "#", current: false },
-  { name: "Price: High to Low", href: "#", current: false },
+  { name: 'Best Rating', sort: '-rating',  current: false },
+  { name: 'Price: Low to High', sort: 'price',  current: false },
+  { name: 'Price: High to Low', sort: '-price',  current: false },
 ];
 const filters = [
   
@@ -75,10 +72,20 @@ export default function ProductList() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const dispatch=useDispatch()
   const products=useSelector(selectAllProducts)
+  const [filter,setFilter]=useState({})
 
   const handleFilter=(e,section,option)=>{
+    const newFilter={...filter,[section.id]:option.value}
+    setFilter(newFilter)
+    dispatch(fetchProductsByFiltersAsync(newFilter))
     console.log(section.id,option.value)
   }
+
+  const handleSort = (e, option) => {
+    const newFilter = { ...filter, _sort: option.sort };
+    setFilter(newFilter);
+    dispatch(fetchProductsByFiltersAsync(newFilter));
+  };
   
 
   useEffect(()=>{
@@ -201,8 +208,8 @@ export default function ProductList() {
                     <div className="py-1">
                       {sortOptions.map((option) => (
                         <MenuItem key={option.name}>
-                          <a
-                            href={option.href}
+                          <p
+                          onClick={e=>handleSort(e,option)}
                             className={classNames(
                               option.current
                                 ? "font-medium text-gray-900"
@@ -211,7 +218,7 @@ export default function ProductList() {
                             )}
                           >
                             {option.name}
-                          </a>
+                          </p>
                         </MenuItem>
                       ))}
                     </div>
@@ -280,6 +287,7 @@ export default function ProductList() {
                                 defaultValue={option.value}
                                 defaultChecked={option.checked}
                                 onChange={e=>handleFilter(e,section,option)}
+                                // onChange={e=>console.log(e)}
                                 id={`filter-${section.id}-${optionIdx}`}
                                 name={`${section.id}[]`}
                                 type="checkbox"
@@ -317,13 +325,13 @@ export default function ProductList() {
                               <div className="mt-4 flex justify-between">
                                 <div>
                                   <h3 className="text-sm text-gray-700">
-                                    <a href={product.thumbnail}>
+                                    <div href={product.thumbnail}>
                                       <span
                                         aria-hidden="true"
                                         className="absolute inset-0"
                                       />
                                       {product.title}
-                                    </a>
+                                    </div>
                                   </h3>
                                   <p className="mt-1 text-sm text-gray-500">
                                     <StarIcon className="w-6 h-6 inline"></StarIcon>
