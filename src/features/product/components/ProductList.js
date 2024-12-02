@@ -42,30 +42,55 @@ const filters = [
     id: "category",
     name: "Categories",
     options: [
-      { value: "beauty", label: "beauty", checked: false },
-      { value: "fragrances", label: "fragrances", checked: false },
-      { value: "furniture", label: "furniture", checked: false },
-      { value: "groceries", label: "groceries", checked: false },
+      { value: 'beauty', label: 'beauty', checked: false },
+  { value: 'fragrances', label: 'fragrances', checked: false },
+  { value: 'furniture', label: 'furniture', checked: false },
+  { value: 'groceries', label: 'groceries', checked: false },
+  { value: 'home-decoration', label: 'home decoration', checked: false },
+  { value: 'kitchen-accessories', label: 'kitchen accessories', checked: false },
+  { value: 'laptops', label: 'laptops', checked: false },
+  { value: 'mens-shirts', label: 'mens shirts', checked: false },
+  { value: 'mens-shoes', label: 'mens shoes', checked: false },
+  { value: 'mens-watches', label: 'mens watches', checked: false },
+  { value: 'mobile-accessories', label: 'mobile accessories', checked: false }
     ],
   },
   {
     id: "brand",
     name: "Brands",
     options: [
-      { value: "Essence", label: "Essence", checked: false },
-      { value: "Glamour Beauty", label: "Glamour Beauty", checked: false },
-      { value: "Velvet Touch", label: "Velvet Touch", checked: true },
-      { value: "Chic Cosmetics", label: "Chic Cosmetics", checked: false },
-      { value: "Nail Couture", label: "Nail Couture", checked: false },
-      { value: "Calvin Klein", label: "Kalvin Klein", checked: false },
-      { value: "Chanel", label: "Chanel", checked: false },
-      { value: "Dior", label: "Dior", checked: false },
-      { value: "Dolce & Gabbana", label: "Dolce & Gabbana", checked: false },
-      { value: "Gucci", label: "Gucci", checked: false },
-      { value: "Annibale Colombo", label: "Annibale Colombo", checked: false },
-      { value: "Furniture Co.", label: "Furniture Co.", checked: false },
-      { value: "Knoll", label: "Knoll", checked: false },
-      { value: "Bath Trends", label: "Bath Trends", checked: false },
+  { value: 'Essence', label: 'Essence', checked: false },
+  { value: 'Glamour Beauty', label: 'Glamour Beauty', checked: false },
+  { value: 'Velvet Touch', label: 'Velvet Touch', checked: false },
+  { value: 'Chic Cosmetics', label: 'Chic Cosmetics', checked: false },
+  { value: 'Nail Couture', label: 'Nail Couture', checked: false },
+  { value: 'Calvin Klein', label: 'Calvin Klein', checked: false },
+  { value: 'Chanel', label: 'Chanel', checked: false },
+  { value: 'Dior', label: 'Dior', checked: false },
+  { value: 'Dolce & Gabbana', label: 'Dolce & Gabbana', checked: false },
+  { value: 'Gucci', label: 'Gucci', checked: false },
+  { value: 'Annibale Colombo', label: 'Annibale Colombo', checked: false },
+  { value: 'Furniture Co.', label: 'Furniture Co.', checked: false },
+  { value: 'Knoll', label: 'Knoll', checked: false },
+  { value: 'Bath Trends', label: 'Bath Trends', checked: false },  
+  { value: 'Costco', label: 'Costco', checked: false },  
+  { value: 'Apple', label: 'Apple', checked: false },
+  { value: 'Asus', label: 'Asus', checked: false },
+  { value: 'Huawei', label: 'Huawei', checked: false },
+  { value: 'Lenovo', label: 'Lenovo', checked: false },
+  { value: 'Dell', label: 'Dell', checked: false },
+  { value: 'Fashion Trends', label: 'Fashion Trends', checked: false },
+  { value: 'Gigabyte', label: 'Gigabyte', checked: false },
+  { value: 'Classic Wear', label: 'Classic Wear', checked: false },
+  { value: 'Casual Comfort', label: 'Casual Comfort', checked: false },
+  { value: 'Urban Chic', label: 'Urban Chic', checked: false },
+  { value: 'Nike', label: 'Nike', checked: false },
+  { value: 'Puma', label: 'Puma', checked: false },
+  { value: 'Off White', label: 'Off White', checked: false },
+  { value: 'Fashion Timepieces', label: 'Fashion Timepieces', checked: false },
+  { value: 'Longines', label: 'Longines', checked: false },
+  { value: 'Rolex', label: 'Rolex', checked: false },
+  { value: 'Amazon', label: 'Amazon', checked: false }
     ],
   },
 ];
@@ -81,9 +106,16 @@ export default function ProductList() {
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
 
   const handleFilter = (e, section, option) => {
-    const newFilter = { ...filter, [section.id]: option.value };
+    console.log(e.target.checked)
+    const newFilter = { ...filter}
+    if(e.target.checked){
+      newFilter[section.id]= option.value 
+    }
+    else{
+      delete newFilter[section.id]
+    }
+    
     setFilter(newFilter);
-    dispatch(fetchProductsByFiltersAsync(newFilter));
     console.log(section.id, option.value);
   };
 
@@ -94,8 +126,8 @@ export default function ProductList() {
   };
 
   useEffect(() => {
-    dispatch(fetchAllProductsAsync());
-  }, [dispatch]);
+    dispatch(fetchProductsByFiltersAsync(filter));
+  }, [dispatch,filter]);
   return (
     <div>
       <div className="bg-white">
