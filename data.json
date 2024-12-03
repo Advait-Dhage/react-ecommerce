@@ -870,56 +870,58 @@
     },
     {
       "id": 17,
-      "title": "Beef Steak",
-      "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
-      "category": "groceries",
-      "price": 12.99,
-      "discountPercentage": 17.99,
-      "rating": 2.83,
-      "brand":"Costco",
-      "stock": 96,
-      "tags": ["meat"],
-      "sku": "BWWA2MSO",
-      "weight": 9,
-      "dimensions": { "width": 23.35, "height": 13.48, "depth": 26.4 },
-      "warrantyInformation": "1 month warranty",
-      "shippingInformation": "Ships overnight",
+      "title": "Apple Airpods 2nd Gen",
+      "description": "The Apple Airpods 2nd gen offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+      "category": "mobile-accessories",
+      "price": 159.99,
+      "discountPercentage": 4.52,
+      "rating": 4.68,
+      "stock": 53,
+      "tags": ["electronics", "wireless earphones"],
+      "brand": "Apple",
+      "sku": "H76W8TSP",
+      "weight": 3,
+      "dimensions": { "width": 21.62, "height": 9.82, "depth": 17.15 },
+      "warrantyInformation": "No warranty",
+      "shippingInformation": "Ships in 3-5 business days",
       "availabilityStatus": "In Stock",
       "reviews": [
         {
-          "rating": 4,
-          "comment": "Very pleased!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Ethan Martinez",
-          "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+          "rating": 3,
+          "comment": "Waste of money!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Aaliyah Hanson",
+          "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+        },
+        {
+          "rating": 2,
+          "comment": "Waste of money!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Leah Gutierrez",
+          "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
         },
         {
           "rating": 3,
-          "comment": "Disappointing product!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Owen Fisher",
-          "reviewerEmail": "owen.fisher@x.dummyjson.com"
-        },
-        {
-          "rating": 4,
-          "comment": "Very happy with my purchase!",
-          "date": "2024-05-23T08:56:21.620Z",
-          "reviewerName": "Scarlett Wright",
-          "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+          "comment": "Not worth the price!",
+          "date": "2024-05-23T08:56:21.624Z",
+          "reviewerName": "Jace Smith",
+          "reviewerEmail": "jace.smith@x.dummyjson.com"
         }
       ],
-      "returnPolicy": "90 days return policy",
-      "minimumOrderQuantity": 21,
+      "returnPolicy": "60 days return policy",
+      "minimumOrderQuantity": 3,
       "meta": {
-        "createdAt": "2024-05-23T08:56:21.620Z",
-        "updatedAt": "2024-05-23T08:56:21.620Z",
-        "barcode": "8335515097879",
+        "createdAt": "2024-05-23T08:56:21.624Z",
+        "updatedAt": "2024-05-23T08:56:21.624Z",
+        "barcode": "3925144121840",
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/1.png"
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Beef%20Steak/thumbnail.png"
+      "thumbnail": "https://www.myimaginestore.com/media/catalog/product/cache/4a48ac28cbb6e9c41470e5be5a6d3043/m/v/mv7n2_av3.jpg"
     },
     {
       "id": 18,
