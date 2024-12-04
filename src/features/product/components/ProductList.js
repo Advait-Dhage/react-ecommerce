@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import {
   selectAllProducts,
-  fetchAllProductsAsync,
   fetchProductsByFiltersAsync,
+  selectTotalItems,
 } from "../productSlice";
 import {
   ChevronLeftIcon,
@@ -31,6 +31,7 @@ import {
   Squares2X2Icon,
 } from "@heroicons/react/20/solid";
 import { Link } from "react-router-dom";
+import { ITEMS_PER_PAGE } from "../../../app/constants";
 
 const sortOptions = [
   { name: "Best Rating", sort: "-rating", current: false },
@@ -42,55 +43,67 @@ const filters = [
     id: "category",
     name: "Categories",
     options: [
-      { value: 'beauty', label: 'beauty', checked: false },
-  { value: 'fragrances', label: 'fragrances', checked: false },
-  { value: 'furniture', label: 'furniture', checked: false },
-  { value: 'groceries', label: 'groceries', checked: false },
-  { value: 'home-decoration', label: 'home decoration', checked: false },
-  { value: 'kitchen-accessories', label: 'kitchen accessories', checked: false },
-  { value: 'laptops', label: 'laptops', checked: false },
-  { value: 'mens-shirts', label: 'mens shirts', checked: false },
-  { value: 'mens-shoes', label: 'mens shoes', checked: false },
-  { value: 'mens-watches', label: 'mens watches', checked: false },
-  { value: 'mobile-accessories', label: 'mobile accessories', checked: false }
+      { value: "beauty", label: "beauty", checked: false },
+      { value: "fragrances", label: "fragrances", checked: false },
+      { value: "furniture", label: "furniture", checked: false },
+      { value: "groceries", label: "groceries", checked: false },
+      { value: "home-decoration", label: "home decoration", checked: false },
+      {
+        value: "kitchen-accessories",
+        label: "kitchen accessories",
+        checked: false,
+      },
+      { value: "laptops", label: "laptops", checked: false },
+      { value: "mens-shirts", label: "mens shirts", checked: false },
+      { value: "mens-shoes", label: "mens shoes", checked: false },
+      { value: "mens-watches", label: "mens watches", checked: false },
+      {
+        value: "mobile-accessories",
+        label: "mobile accessories",
+        checked: false,
+      },
     ],
   },
   {
     id: "brand",
     name: "Brands",
     options: [
-  { value: 'Essence', label: 'Essence', checked: false },
-  { value: 'Glamour Beauty', label: 'Glamour Beauty', checked: false },
-  { value: 'Velvet Touch', label: 'Velvet Touch', checked: false },
-  { value: 'Chic Cosmetics', label: 'Chic Cosmetics', checked: false },
-  { value: 'Nail Couture', label: 'Nail Couture', checked: false },
-  { value: 'Calvin Klein', label: 'Calvin Klein', checked: false },
-  { value: 'Chanel', label: 'Chanel', checked: false },
-  { value: 'Dior', label: 'Dior', checked: false },
-  { value: 'Dolce & Gabbana', label: 'Dolce & Gabbana', checked: false },
-  { value: 'Gucci', label: 'Gucci', checked: false },
-  { value: 'Annibale Colombo', label: 'Annibale Colombo', checked: false },
-  { value: 'Furniture Co.', label: 'Furniture Co.', checked: false },
-  { value: 'Knoll', label: 'Knoll', checked: false },
-  { value: 'Bath Trends', label: 'Bath Trends', checked: false },  
-  { value: 'Costco', label: 'Costco', checked: false },  
-  { value: 'Apple', label: 'Apple', checked: false },
-  { value: 'Asus', label: 'Asus', checked: false },
-  { value: 'Huawei', label: 'Huawei', checked: false },
-  { value: 'Lenovo', label: 'Lenovo', checked: false },
-  { value: 'Dell', label: 'Dell', checked: false },
-  { value: 'Fashion Trends', label: 'Fashion Trends', checked: false },
-  { value: 'Gigabyte', label: 'Gigabyte', checked: false },
-  { value: 'Classic Wear', label: 'Classic Wear', checked: false },
-  { value: 'Casual Comfort', label: 'Casual Comfort', checked: false },
-  { value: 'Urban Chic', label: 'Urban Chic', checked: false },
-  { value: 'Nike', label: 'Nike', checked: false },
-  { value: 'Puma', label: 'Puma', checked: false },
-  { value: 'Off White', label: 'Off White', checked: false },
-  { value: 'Fashion Timepieces', label: 'Fashion Timepieces', checked: false },
-  { value: 'Longines', label: 'Longines', checked: false },
-  { value: 'Rolex', label: 'Rolex', checked: false },
-  { value: 'Amazon', label: 'Amazon', checked: false }
+      { value: "Essence", label: "Essence", checked: false },
+      { value: "Glamour Beauty", label: "Glamour Beauty", checked: false },
+      { value: "Velvet Touch", label: "Velvet Touch", checked: false },
+      { value: "Chic Cosmetics", label: "Chic Cosmetics", checked: false },
+      { value: "Nail Couture", label: "Nail Couture", checked: false },
+      { value: "Calvin Klein", label: "Calvin Klein", checked: false },
+      { value: "Chanel", label: "Chanel", checked: false },
+      { value: "Dior", label: "Dior", checked: false },
+      { value: "Dolce & Gabbana", label: "Dolce & Gabbana", checked: false },
+      { value: "Gucci", label: "Gucci", checked: false },
+      { value: "Annibale Colombo", label: "Annibale Colombo", checked: false },
+      { value: "Furniture Co.", label: "Furniture Co.", checked: false },
+      { value: "Knoll", label: "Knoll", checked: false },
+      { value: "Bath Trends", label: "Bath Trends", checked: false },
+      { value: "Costco", label: "Costco", checked: false },
+      { value: "Apple", label: "Apple", checked: false },
+      { value: "Asus", label: "Asus", checked: false },
+      { value: "Huawei", label: "Huawei", checked: false },
+      { value: "Lenovo", label: "Lenovo", checked: false },
+      { value: "Dell", label: "Dell", checked: false },
+      { value: "Fashion Trends", label: "Fashion Trends", checked: false },
+      { value: "Gigabyte", label: "Gigabyte", checked: false },
+      { value: "Classic Wear", label: "Classic Wear", checked: false },
+      { value: "Casual Comfort", label: "Casual Comfort", checked: false },
+      { value: "Urban Chic", label: "Urban Chic", checked: false },
+      { value: "Nike", label: "Nike", checked: false },
+      { value: "Puma", label: "Puma", checked: false },
+      { value: "Off White", label: "Off White", checked: false },
+      {
+        value: "Fashion Timepieces",
+        label: "Fashion Timepieces",
+        checked: false,
+      },
+      { value: "Longines", label: "Longines", checked: false },
+      { value: "Rolex", label: "Rolex", checked: false },
+      { value: "Amazon", label: "Amazon", checked: false },
     ],
   },
 ];
@@ -102,45 +115,68 @@ function classNames(...classes) {
 export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
+  const totalItems=useSelector(selectTotalItems)
   const [filter, setFilter] = useState({});
-  const [sort,setSort]=useState({})
+  const [sort, setSort] = useState({});
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
+  const [page, setPage] = useState(1);
 
   const handleFilter = (e, section, option) => {
-    console.log(e.target.checked)
-    const newFilter = { ...filter}
+    console.log(e.target.checked);
+    const newFilter = { ...filter };
     //todo: on server it will support multiple filters at the same time
-    if(e.target.checked){
-      if(newFilter[section.id]){
-        newFilter[section.id].push(option.value)
+    if (e.target.checked) {
+      if (newFilter[section.id]) {
+        newFilter[section.id].push(option.value);
+      } else {
+        newFilter[section.id] = [option.value];
       }
-      else{
-        newFilter[section.id]=[option.value]
-      }
+    } else {
+      const index = newFilter[section.id].findIndex(
+        (el) => el === option.value
+      );
+      newFilter[section.id].splice(index, 1);
     }
-    else{
-      const index= newFilter[section.id].findIndex(el=>el===option.value)
-      newFilter[section.id].splice(index,1)
+    if (newFilter[section.id].length === 0) {
+      delete newFilter[section.id];  // Remove the section if empty
     }
-    console.log({newFilter});
+    console.log({ newFilter });
     setFilter(newFilter);
   };
 
+
+
   const handleSort = (e, option) => {
-    const sort = {_sort: option.sort };
-    console.log({sort})
-    setSort(sort)
+    const sort = { _sort: option.sort };
+    console.log({ sort });
+    setSort(sort);
+  };
+
+  const handlePage = (page) => {
+    console.log({page})
+    setPage(page);
   };
 
   useEffect(() => {
-    dispatch(fetchProductsByFiltersAsync({filter,sort}));
-  }, [dispatch,filter,sort]);
+    const pagination = { _page: page, _limit: ITEMS_PER_PAGE };
+    dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
+  }, [dispatch, filter, sort, page]);
+
+  useEffect(() => {
+    setPage(1)
+  }, [totalItems,sort])
+  
+
   return (
     <div>
       <div className="bg-white">
         <div>
           {/* Mobile filter dialog */}
-          <MobileFilter handleFilter={handleFilter} mobileFiltersOpen={mobileFiltersOpen} setMobileFiltersOpen={setMobileFiltersOpen} ></MobileFilter>
+          <MobileFilter
+            handleFilter={handleFilter}
+            mobileFiltersOpen={mobileFiltersOpen}
+            setMobileFiltersOpen={setMobileFiltersOpen}
+          ></MobileFilter>
 
           <main className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="flex items-baseline justify-between border-b border-gray-200 pb-6 pt-24">
@@ -217,7 +253,12 @@ export default function ProductList() {
                 </div>
               </div>
             </section>
-            <Pagination></Pagination>
+            <Pagination
+              page={page}
+              setPage={setPage}
+              handlePage={handlePage}
+              totalItems={totalItems}
+            ></Pagination>
           </main>
         </div>
       </div>
@@ -225,7 +266,11 @@ export default function ProductList() {
   );
 }
 
-function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen,handleFilter }) {
+function MobileFilter({
+  mobileFiltersOpen,
+  setMobileFiltersOpen,
+  handleFilter,
+}) {
   return (
     <div>
       <Dialog
@@ -315,8 +360,7 @@ function MobileFilter({ mobileFiltersOpen, setMobileFiltersOpen,handleFilter }) 
   );
 }
 
-function DesktopFilter({handleFilter}) {
-  
+function DesktopFilter({ handleFilter }) {
   return (
     <div>
       <form className="hidden lg:block">
@@ -376,7 +420,7 @@ function DesktopFilter({handleFilter}) {
   );
 }
 
-function Pagination() {
+function Pagination({ page, setPage, handlePage, totalItems }) {
   return (
     <div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
@@ -397,9 +441,12 @@ function Pagination() {
         <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
           <div>
             <p className="text-sm text-gray-700">
-              Showing <span className="font-medium">1</span> to{" "}
-              <span className="font-medium">10</span> of{" "}
-              <span className="font-medium">97</span> results
+              Showing{" "}
+              <span className="font-medium">
+                {(page - 1) * ITEMS_PER_PAGE + 1}
+              </span>{" "}
+              to <span className="font-medium">{page * ITEMS_PER_PAGE>totalItems?totalItems:page*ITEMS_PER_PAGE}</span> of{" "}
+              <span className="font-medium">{totalItems}</span> results
             </p>
           </div>
           <div>
@@ -415,26 +462,18 @@ function Pagination() {
                 <ChevronLeftIcon aria-hidden="true" className="size-5" />
               </a>
               {/* Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" */}
-              <a
-                href="#"
+              {
+                Array.from({length:Math.ceil(totalItems/ITEMS_PER_PAGE)}).map((el,index)=>
+                  <div
+                onClick={e=>handlePage(index+1)}
                 aria-current="page"
-                className="relative z-10 inline-flex items-center bg-indigo-600 px-4 py-2 text-sm font-semibold text-white focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className={`relative cursor-pointer z-10 inline-flex items-center ${index+1===page?'bg-indigo-600 text-white':'text-gray-400 '}  px-4 py-2 text-sm font-semibold focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
               >
-                1
-              </a>
-              <a
-                href="#"
-                className="relative inline-flex items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
-              >
-                2
-              </a>
-              <a
-                href="#"
-                className="relative hidden items-center px-4 py-2 text-sm font-semibold text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0 md:inline-flex"
-              >
-                3
-              </a>
-
+                {index+1}
+              </div>
+                )
+              }
+              
               <a
                 href="#"
                 className="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
@@ -450,13 +489,13 @@ function Pagination() {
   );
 }
 
-function ProductGrid({products}) {
+function ProductGrid({ products }) {
   return (
     <div>
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-            {products.map((product) => (
+            {products.data?.map((product) => (
               <Link to="/product-detail">
                 <div
                   key={product.id}
