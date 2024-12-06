@@ -15,7 +15,7 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   let queryString=''
   for(let key in filter){
     const categoryValues=filter[key]
-    if(categoryValues){
+    if(categoryValues.length){
       const lastCategoryValue=categoryValues[categoryValues.length-1]
     queryString+=`${key}=${lastCategoryValue}&`
     }
@@ -33,8 +33,28 @@ export function fetchProductsByFilters(filter,sort,pagination) {
     //we will support multiple values in future
   const response=await fetch('http://localhost:8080/products?'+queryString)
   const data=await response.json()
-  const totalItems=await data.items
+  console.log(data)
+  const totalItems =data.items
+  console.log(totalItems)
   resolve({data:{products:data,totalItems:+totalItems}})
+  }
+  );
+}
+
+export function fetchCategories() {
+  return new Promise(async(resolve) =>{
+  const response=await fetch('http://localhost:8080/categories')
+  const data=await response.json()
+  resolve({data})
+  }
+  );
+}
+
+export function fetchBrands() {
+  return new Promise(async(resolve) =>{
+  const response=await fetch('http://localhost:8080/brands')
+  const data=await response.json()
+  resolve({data})
   }
   );
 }
