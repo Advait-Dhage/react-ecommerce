@@ -1,9 +1,57 @@
+export function createUser(userData) {
+  return new Promise(async (resolve) => {
+    const response = await fetch('http://localhost:8080/users', {
+      method: 'POST',
+      body: JSON.stringify(userData),
+      headers: { 'content-type': 'application/json' },
+    });
+    const data = await response.json();
+    // TODO: on server it will only return some info of user (not password)
+    resolve({ data });
+  });
 
-export function fetchCount(amount = 1) {
-  return new Promise(async(resolve) =>{
-  const response=await fetch('https:/localhost:8080')
-  const data=await response.json()
-  resolve({data})
-  }
-  );
 }
+
+  
+export function checkUser(loginInfo) {
+  return new Promise(async (resolve, reject) => {
+    const email = loginInfo.email;
+    const password = loginInfo.password;
+    const response = await fetch('http://localhost:8080/users?email=' + email);
+    const data = await response.json();
+    console.log({data})
+    if (data.length) {
+      if (password === data[0].password) {
+        resolve({ data: data[0] });
+      } else {
+        reject({message:'Wrong Credentials'})
+      }
+    } else {
+      reject({ message: 'user not found' });
+    }
+    // TODO: on server it will only return some info of user (not password)
+  });
+}
+
+// export function checkUser(userInfo) {
+//   return new Promise(async (resolve,reject) => {
+//     const email=userInfo.email
+//     const password=userInfo.password
+//     const response = await fetch('http://localhost:8080/users?email='+email);
+//     const data = await response.json();
+//     console.log({data})
+//     if(data.length){
+//       if(password===data[0].password){
+//         resolve({ data:data[0] });
+//       }
+//       else{
+//         reject('wrong credentials')
+//       }
+//     }
+//     else{
+//       reject('No user found')
+//     }
+//   });
+// }
+
+
