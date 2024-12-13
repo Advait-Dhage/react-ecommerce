@@ -5,6 +5,7 @@ import { deleteItemFromCartAsync, selectItems, updateCartAsync } from "../featur
 import { useForm } from "react-hook-form";
 import { selectLoggedInUser, updateUserAsync } from "../features/auth/authSlice";
 import { createOrderAsync, selectCurrentOrder } from "../features/order/orderSlice";
+import { selectUserInfo } from "../features/user/userSlice";
 
 // const addresses = [
 //   {
@@ -43,7 +44,7 @@ function Checkout() {
   const [selectedAddress,setSelectedAddress]=useState(null)
   const [paymentMethod,setPaymentMethod]=useState('cash')
 
-  const user=useSelector(selectLoggedInUser)
+  const user=useSelector(selectUserInfo)
 
   const handleQuantity=(e,item)=>{
     dispatch(updateCartAsync({...item,quantity:+e.target.value}))
