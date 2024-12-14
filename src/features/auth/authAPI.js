@@ -32,5 +32,12 @@ export function checkUser(loginInfo) {
   });
 }
 
+export function signOut(userData) {
+  return new Promise(async (resolve) => {
+    // TODO: on server we will remove userinfo from frontend as well as backend and he will be logged off
+    resolve({data:'success'});
+  });
+}
+
 
 

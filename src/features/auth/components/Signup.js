@@ -17,7 +17,7 @@ export default function Signup() {
 
   return (
     <>
-        {user&&<Navigate to='/' replace={true}></Navigate>}
+      {user && <Navigate to="/" replace={true}></Navigate>}
 
       <div>
         <div className="flex min-h-full flex-1 flex-col justify-center px-6 py-12 lg:px-8">
@@ -40,7 +40,7 @@ export default function Signup() {
                   createUserAsync({
                     email: data.email,
                     password: data.password,
-                    addresses:[]
+                    addresses: [],
                   })
                 );
                 console.log(data);
@@ -67,7 +67,7 @@ export default function Signup() {
                     type="email"
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm/6"
                   />
-                  {errors.email&&(
+                  {errors.email && (
                     <p className="text-red-500">{errors.email.message}</p>
                   )}
                 </div>
@@ -82,12 +82,12 @@ export default function Signup() {
                     Password
                   </label>
                   <div className="text-sm">
-                    <a
-                      href="#"
+                    <Link
+                      to="/forgot-password"
                       className="font-semibold text-indigo-600 hover:text-indigo-500"
                     >
                       Forgot password?
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="mt-2">
@@ -168,7 +168,6 @@ export default function Signup() {
               </Link>
             </p>
           </div>
-          
         </div>
       </div>
     </>
