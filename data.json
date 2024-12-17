@@ -56,9 +56,13 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
-        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "2",
@@ -116,6 +120,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
@@ -176,6 +182,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
@@ -236,9 +244,12 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "5",
@@ -296,6 +307,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
@@ -482,9 +495,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "9",
@@ -975,6 +990,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Apple/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Apple/thumbnail.png"
@@ -1097,6 +1114,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cat%20Food/thumbnail.png"
@@ -1157,6 +1176,7 @@
       },
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/2.png",
         "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/2.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Chicken%20Meat/thumbnail.png"
@@ -1216,6 +1236,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cooking%20Oil/thumbnail.png"
@@ -1275,6 +1297,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Cucumber/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Cucumber/thumbnail.png"
@@ -1335,6 +1359,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Dog%20Food/thumbnail.png"
@@ -1394,6 +1420,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Eggs/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Eggs/thumbnail.png"
@@ -1453,6 +1481,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"
@@ -1512,6 +1542,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Bell%20Pepper/thumbnail.png"
@@ -1571,6 +1603,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png"
@@ -1630,6 +1664,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Honey%20Jar/thumbnail.png"
@@ -1751,6 +1787,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Juice/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Juice/thumbnail.png"
@@ -1810,6 +1848,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
@@ -1869,6 +1909,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Lemon/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Lemon/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Lemon/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Lemon/thumbnail.png"
@@ -1928,6 +1970,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Milk/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Milk/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Milk/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Milk/thumbnail.png"
@@ -1987,6 +2031,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Mulberry/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Mulberry/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Mulberry/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Mulberry/thumbnail.png"
@@ -2047,6 +2093,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Nescafe%20Coffee/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Nescafe%20Coffee/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Nescafe%20Coffee/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Nescafe%20Coffee/thumbnail.png"
@@ -2106,6 +2154,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Potatoes/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Potatoes/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Potatoes/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Potatoes/thumbnail.png"
@@ -2165,6 +2215,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/thumbnail.png"
@@ -2224,6 +2276,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Red%20Onions/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Red%20Onions/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Red%20Onions/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Red%20Onions/thumbnail.png"
@@ -2283,6 +2337,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Rice/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Rice/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Rice/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Rice/thumbnail.png"
@@ -2342,6 +2398,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Soft%20Drinks/thumbnail.png"
@@ -2401,6 +2459,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Strawberry/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Strawberry/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Strawberry/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Strawberry/thumbnail.png"
@@ -2461,6 +2521,7 @@
       },
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Tissue%20Paper%20Box/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Tissue%20Paper%20Box/2.png",
         "https://cdn.dummyjson.com/products/images/groceries/Tissue%20Paper%20Box/2.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Tissue%20Paper%20Box/thumbnail.png"
@@ -2520,6 +2581,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/groceries/Water/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Water/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Water/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Water/thumbnail.png"
@@ -2642,6 +2705,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/home-decoration/Family%20Tree%20Photo%20Frame/1.png",
+        "https://cdn.dummyjson.com/products/images/home-decoration/Family%20Tree%20Photo%20Frame/1.png",
         "https://cdn.dummyjson.com/products/images/home-decoration/Family%20Tree%20Photo%20Frame/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/home-decoration/Family%20Tree%20Photo%20Frame/thumbnail.png"
@@ -2827,6 +2892,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/1.png",
+        "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/1.png",
         "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/home-decoration/Table%20Lamp/thumbnail.png"
@@ -2887,6 +2954,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Bamboo%20Spatula/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Bamboo%20Spatula/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Bamboo%20Spatula/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Bamboo%20Spatula/thumbnail.png"
@@ -2948,6 +3017,7 @@
       },
       "images": [
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Aluminium%20Cup/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Aluminium%20Cup/2.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Aluminium%20Cup/2.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Aluminium%20Cup/thumbnail.png"
@@ -3008,6 +3078,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Whisk/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Whisk/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Whisk/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Black%20Whisk/thumbnail.png"
@@ -3131,6 +3203,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Carbon%20Steel%20Wok/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Carbon%20Steel%20Wok/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Carbon%20Steel%20Wok/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Carbon%20Steel%20Wok/thumbnail.png"
@@ -3191,6 +3265,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Chopping%20Board/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Chopping%20Board/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Chopping%20Board/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Chopping%20Board/thumbnail.png"
@@ -3251,6 +3327,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Citrus%20Squeezer%20Yellow/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Citrus%20Squeezer%20Yellow/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Citrus%20Squeezer%20Yellow/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Citrus%20Squeezer%20Yellow/thumbnail.png"
@@ -3311,6 +3389,9 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/thumbnail.png"
@@ -3434,6 +3515,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fine%20Mesh%20Strainer/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fine%20Mesh%20Strainer/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fine%20Mesh%20Strainer/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fine%20Mesh%20Strainer/thumbnail.png"
@@ -3494,6 +3577,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/thumbnail.png"
@@ -3554,6 +3639,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Glass/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Glass/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Glass/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Glass/thumbnail.png"
@@ -3614,6 +3701,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Grater%20Black/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Grater%20Black/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Grater%20Black/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Grater%20Black/thumbnail.png"
@@ -3674,6 +3763,8 @@
         "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
       },
       "images": [
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Hand%20Blender/1.png",
+        "https://cdn.dummyjson.com/products/images/kitchen-accessories/Hand%20Blender/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Hand%20Blender/1.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Hand%20Blender/thumbnail.png"
@@ -6013,12 +6104,12 @@
     },
     {
       "id": "100",
-      "title": "Apple Airpods",
+      "title": "Apple Airpods 1st Gen",
       "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
       "category": "mobile-accessories",
       "price": 129.99,
-      "discountPercentage": 4.82,
-      "rating": 4.38,
+      "discountPercentage": 10,
+      "rating": 0,
       "stock": 93,
       "tags": [
         "electronics",
@@ -6069,9 +6160,28 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
         "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
-        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png",
+        "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
       ],
       "thumbnail": "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/thumbnail.png"
+    },
+    {
+      "id": "2d3b",
+      "title": "OnePlus Nord 4",
+      "description": "The latest and greatest Nord. 5500mAh battery, 100W charger, Snapdragon 7 plus gen 3 with 1.2M+ antutu score and much more",
+      "category": "smartphones",
+      "brand": "OnePlus",
+      "price": 350,
+      "discountPercentage": 4,
+      "stock": 43,
+      "thumbnail": "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+      "images": [
+        "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+        "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+        "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+        "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1"
+      ],
+      "rating": 0
     }
   ],
   "categories": [
@@ -6080,6 +6190,12 @@
       "label": "beauty",
       "checked": false,
       "id": "23e3"
+    },
+    {
+      "value": "smartphones",
+      "label": "smartphones",
+      "checked": false,
+      "id": "av47"
     },
     {
       "value": "fragrances",
@@ -6334,12 +6450,19 @@
       "label": "Amazon",
       "checked": false,
       "id": "280e"
+    },
+    {
+      "value": "OnePlus",
+      "label": "OnePlus",
+      "checked": false,
+      "id": "1v47"
     }
   ],
   "users": [
     {
       "id": "9446",
       "email": "advaitdhage00@gmail.com",
+      "role": "user",
       "addresses": [
         {
           "name": "Advait Dhage",
@@ -6391,6 +6514,14 @@
       "email": "natsumetakashi7@gmail.com",
       "addresses": [],
       "password": "Busaineko@7"
+    },
+    {
+      "id": "3a6c",
+      "email": "admin@gmail.com",
+      "password": "Admin@123",
+      "addresses": [],
+      "role": "admin",
+      "imageUrl": "https://th.bing.com/th/id/R.ec9fa6a094205ebf4d506eca6ffbc5c4?rik=so%2fIO%2bWo4QmImA&riu=http%3a%2f%2fpm1.narvii.com%2f6495%2f6972548c18a6e87b70095b1b05510a915102e0cb_00.jpg&ehk=o7PkUvSUIfwBd1biz5cyAGts2mAz1B3Frh5LuDTK1jI%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1"
     }
   ],
   "cart": [],

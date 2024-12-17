@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
+import {useParams} from "react-router-dom"
 import {
   selectAllProducts,
   fetchProductsByFiltersAsync,
@@ -8,7 +9,7 @@ import {
   selectCategories,
   fetchBrandsAsync,
   fetchCategoriesAsync,
-} from "../productSlice";
+} from "../../product/productSlice";
 import {
   ChevronLeftIcon,
   ChevronRightIcon,
@@ -47,22 +48,22 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function ProductList() {
+export default function AdminProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
-  const brands=useSelector(selectBrands)
-  const categories=useSelector(selectCategories)
-  const totalItems=useSelector(selectTotalItems)
+  const brands = useSelector(selectBrands);
+  const categories = useSelector(selectCategories);
+  const totalItems = useSelector(selectTotalItems);
   const filters = [
     {
       id: "category",
       name: "Categories",
-      options: categories
+      options: categories,
     },
     {
       id: "brand",
       name: "Brands",
-      options: brands
+      options: brands,
     },
   ];
 
@@ -70,6 +71,8 @@ export default function ProductList() {
   const [sort, setSort] = useState({});
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [page, setPage] = useState(1);
+  const params=useParams()
+  
 
   const handleFilter = (e, section, option) => {
     console.log(e.target.checked);
@@ -88,13 +91,11 @@ export default function ProductList() {
       newFilter[section.id].splice(index, 1);
     }
     if (newFilter[section.id].length === 0) {
-      delete newFilter[section.id];  // Remove the section if empty
+      delete newFilter[section.id]; // Remove the section if empty
     }
     console.log({ newFilter });
     setFilter(newFilter);
   };
-
-
 
   const handleSort = (e, option) => {
     const sort = { _sort: option.sort };
@@ -103,25 +104,25 @@ export default function ProductList() {
   };
 
   const handlePage = (page) => {
-    console.log({page})
+    console.log({ page });
     setPage(page);
   };
+
+  const handleEditProduct = () => {};
 
   useEffect(() => {
     const pagination = { _page: page, _per_page: ITEMS_PER_PAGE };
     dispatch(fetchProductsByFiltersAsync({ filter, sort, pagination }));
-    //TODO:server will filter out the deleted products
   }, [dispatch, filter, sort, page]);
 
   useEffect(() => {
-    setPage(1)
-  }, [totalItems,sort])
+    setPage(1);
+  }, [totalItems, sort]);
 
-  useEffect(()=>{
-    dispatch(fetchBrandsAsync())
-    dispatch(fetchCategoriesAsync())
-  },[])
-  
+  useEffect(() => {
+    dispatch(fetchBrandsAsync());
+    dispatch(fetchCategoriesAsync());
+  }, []);
 
   return (
     <div>
@@ -202,7 +203,10 @@ export default function ProductList() {
 
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                 {/* Filters */}
-                <DesktopFilter handleFilter={handleFilter} filters={filters}></DesktopFilter>
+                <DesktopFilter
+                  handleFilter={handleFilter}
+                  filters={filters}
+                ></DesktopFilter>
 
                 {/* Product grid */}
                 <div className="lg:col-span-3">
@@ -227,7 +231,7 @@ function MobileFilter({
   mobileFiltersOpen,
   setMobileFiltersOpen,
   handleFilter,
-  filters
+  filters,
 }) {
   return (
     <div>
@@ -318,7 +322,7 @@ function MobileFilter({
   );
 }
 
-function DesktopFilter({ handleFilter,filters }) {
+function DesktopFilter({ handleFilter, filters }) {
   return (
     <div>
       <form className="hidden lg:block">
@@ -379,19 +383,19 @@ function DesktopFilter({ handleFilter,filters }) {
 }
 
 function Pagination({ page, handlePage, totalItems }) {
-  const totalPages=Math.ceil(totalItems/ITEMS_PER_PAGE)
+  const totalPages = Math.ceil(totalItems / ITEMS_PER_PAGE);
   return (
     <div>
       <div className="flex items-center justify-between border-t border-gray-200 bg-white px-4 py-3 sm:px-6">
         <div className="flex flex-1 justify-between sm:hidden">
           <div
-            onClick={e=>handlePage(page>1?page-1:page)}
+            onClick={(e) => handlePage(page > 1 ? page - 1 : page)}
             className="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
           >
             Previous
           </div>
           <div
-           onClick={e=>handlePage(totalPages>page?page+1:page)}
+            onClick={(e) => handlePage(totalPages > page ? page + 1 : page)}
             className="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
           >
             Next
@@ -400,17 +404,17 @@ function Pagination({ page, handlePage, totalItems }) {
         <div className="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
           <div>
             <p className="text-sm text-gray-700">
-            Showing{' '}
-            <span className="font-medium">
-              {(page - 1) * ITEMS_PER_PAGE + 1}
-            </span>{' '}
-            to{' '}
-            <span className="font-medium">
-              {page * ITEMS_PER_PAGE > totalItems
-                ? totalItems
-                : page * ITEMS_PER_PAGE}
-            </span>{' '}
-            of <span className="font-medium">{totalItems}</span> results
+              Showing{" "}
+              <span className="font-medium">
+                {(page - 1) * ITEMS_PER_PAGE + 1}
+              </span>{" "}
+              to{" "}
+              <span className="font-medium">
+                {page * ITEMS_PER_PAGE > totalItems
+                  ? totalItems
+                  : page * ITEMS_PER_PAGE}
+              </span>{" "}
+              of <span className="font-medium">{totalItems}</span> results
             </p>
           </div>
           <div>
@@ -419,31 +423,29 @@ function Pagination({ page, handlePage, totalItems }) {
               className="isolate inline-flex -space-x-px rounded-md shadow-sm"
             >
               <div
-                onClick={(e)=>handlePage(page===1?page:page-1)}
+                onClick={(e) => handlePage(page === 1 ? page : page - 1)}
                 className="relative inline-flex items-center rounded-l-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
               >
                 <span className="sr-only">Previous</span>
                 <ChevronLeftIcon aria-hidden="true" className="size-5" />
               </div>
               {/* Current: "z-10 bg-indigo-600 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600", Default: "text-gray-900 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:outline-offset-0" */}
-              {Array.from({ length: totalPages}).map(
-              (el, index) => (
+              {Array.from({ length: totalPages }).map((el, index) => (
                 <div
                   onClick={(e) => handlePage(index + 1)}
                   aria-current="page"
                   className={`relative cursor-pointer z-10 inline-flex items-center ${
                     index + 1 === page
-                      ? 'bg-indigo-600 text-white'
-                      : 'text-gray-400'
+                      ? "bg-indigo-600 text-white"
+                      : "text-gray-400"
                   } px-4 py-2 text-sm font-semibold  focus:z-20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600`}
                 >
                   {index + 1}
                 </div>
-              )
-            )}
-              
+              ))}
+
               <div
-                onClick={(e)=>handlePage(totalPages>page?page+1:page)}
+                onClick={(e) => handlePage(totalPages > page ? page + 1 : page)}
                 className="relative inline-flex items-center rounded-r-md px-2 py-2 text-gray-400 ring-1 ring-inset ring-gray-300 hover:bg-gray-50 focus:z-20 focus:outline-offset-0"
               >
                 <span className="sr-only">Next</span>
@@ -459,55 +461,81 @@ function Pagination({ page, handlePage, totalItems }) {
 
 function ProductGrid({ products }) {
   return (
-    <div>
-      <div className="bg-white">
-        <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
-          <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-            {products.data?.map((product) => (
-              <Link to={`/product-detail/${product.id}`}  key={product.id}>
-                <div
-                  className="group relative border-solid border-2 border-gray-200 p-4"
-                >
-                  <img
-                    alt={product.title}
-                    src={product.thumbnail}
-                    className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-60"
-                  />
+    <>
+      <div>
+        <div className="bg-white">
+          <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
+            <div>
+              <Link
+                to="/admin/product-form"
+                className="rounded-md bg-green-600 px-3 py-2 my-5 mx-10 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >
+                Add New Product
+              </Link>
+            </div>
+            <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+              {products.data?.map((product) => (
+                <div>
+                  <Link to={`/product-detail/${product.id}`} key={product.id}>
+                    <div className="group relative border-solid border-2 border-gray-200 p-4">
+                      <img
+                        alt={product.title}
+                        src={product.thumbnail}
+                        className="aspect-square w-full rounded-md bg-gray-200 object-cover group-hover:opacity-75 lg:aspect-auto lg:h-60"
+                      />
 
-                  <div className="mt-4 flex justify-between">
-                    <div>
-                      <h3 className="text-sm text-gray-700">
-                        <div href={product.thumbnail}>
-                          <span
-                            aria-hidden="true"
-                            className="absolute inset-0"
-                          />
-                          {product.title}
+                      <div className="mt-4 flex justify-between">
+                        <div>
+                          <h3 className="text-sm text-gray-700">
+                            <div href={product.thumbnail}>
+                              <span
+                                aria-hidden="true"
+                                className="absolute inset-0"
+                              />
+                              {product.title}
+                            </div>
+                          </h3>
+                          <p className="mt-1 text-sm text-gray-500">
+                            <StarIcon className="w-6 h-6 inline"></StarIcon>
+                            <span className="align-bottom">
+                              {product.rating}
+                            </span>
+                          </p>
                         </div>
-                      </h3>
-                      <p className="mt-1 text-sm text-gray-500">
-                        <StarIcon className="w-6 h-6 inline"></StarIcon>
-                        <span className="align-bottom">{product.rating}</span>
-                      </p>
+                        <div>
+                          <p className="text-sm block font-medium text-gray-900">
+                            $
+                            {Math.round(
+                              product.price *
+                                (1 - product.discountPercentage / 100)
+                            )}
+                          </p>
+                          <p className="text-sm block line-through font-medium text-gray-500">
+                            ${product.price}
+                          </p>
+                        </div>
+                        {product.deleted&&<div>
+                          <p className='text-sm text-red-500'>Product deleted</p>
+                        </div>}
+                      </div>
                     </div>
-                    <div>
-                      <p className="text-sm block font-medium text-gray-900">
-                        $
-                        {Math.round(
-                          product.price * (1 - product.discountPercentage / 100)
-                        )}
-                      </p>
-                      <p className="text-sm block line-through font-medium text-gray-500">
-                        ${product.price}
-                      </p>
-                    </div>
+                  </Link>
+                  <div className='mt-5'>
+                    
+                  <Link
+                  to={`/admin/product-form/edit/${product.id}`}
+                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Edit Product
+                </Link>
+                    
                   </div>
                 </div>
-              </Link>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
