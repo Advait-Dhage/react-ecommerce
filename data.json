@@ -122,9 +122,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
-        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "3",
@@ -184,9 +186,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
-        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "4",
@@ -309,9 +313,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
         "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
-        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png"
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/1.png",
+        "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Red%20Nail%20Polish/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "6",
@@ -373,7 +379,8 @@
         "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/2.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Calvin%20Klein%20CK%20One/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "7",
@@ -433,9 +440,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/1.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/2.png",
-        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png"
+        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/3.png",
+        "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Chanel%20Coco%20Noir%20Eau%20De/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "8",
@@ -561,7 +570,8 @@
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "10",
@@ -623,7 +633,8 @@
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/2.png",
         "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/3.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Gucci%20Bloom%20Eau%20de/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "11",
@@ -1483,9 +1494,11 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png",
-        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png"
+        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/1.png",
+        "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Fish%20Steak/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "25",
@@ -1607,7 +1620,8 @@
         "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Green%20Chili%20Pepper/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "27",
@@ -1852,7 +1866,8 @@
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Kiwi/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Kiwi/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "31",
@@ -2463,7 +2478,8 @@
         "https://cdn.dummyjson.com/products/images/groceries/Strawberry/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Strawberry/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Strawberry/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Strawberry/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "41",
@@ -2585,7 +2601,8 @@
         "https://cdn.dummyjson.com/products/images/groceries/Water/1.png",
         "https://cdn.dummyjson.com/products/images/groceries/Water/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Water/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Water/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "43",
@@ -3394,7 +3411,8 @@
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Egg%20Slicer/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "56",
@@ -3581,7 +3599,8 @@
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/1.png",
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Fork/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "59",
@@ -4311,7 +4330,8 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Red%20Tongs/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Red%20Tongs/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Red%20Tongs/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "71",
@@ -4431,7 +4451,8 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Slotted%20Turner/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Slotted%20Turner/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Slotted%20Turner/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "73",
@@ -4731,7 +4752,8 @@
       "images": [
         "https://cdn.dummyjson.com/products/images/kitchen-accessories/Yellow%20Peeler/1.png"
       ],
-      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Yellow%20Peeler/thumbnail.png"
+      "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Yellow%20Peeler/thumbnail.png",
+      "deleted": true
     },
     {
       "id": "78",
@@ -6182,6 +6204,42 @@
         "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1"
       ],
       "rating": 0
+    },
+    {
+      "id": "137a",
+      "title": "iPhone 16 Pro Max",
+      "description": "iPhone 16 Pro Max 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Desert Titanium",
+      "category": "smartphones",
+      "brand": "Apple",
+      "price": 1700,
+      "discountPercentage": 3,
+      "stock": 15,
+      "thumbnail": "https://m.media-amazon.com/images/I/3164xgZ11EL._SY445_SX342_QL70_FMwebp_.jpg",
+      "images": [
+        "https://m.media-amazon.com/images/I/61+0gHhq1rL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/71ta3jyFvIL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/710SV4EG9SL._SX679_.jpg",
+        "https://m.media-amazon.com/images/I/3164xgZ11EL._SY445_SX342_QL70_FMwebp_.jpg"
+      ],
+      "rating": 0
+    },
+    {
+      "id": "7f59",
+      "title": "SAMSUNG Galaxy S24 Ultra",
+      "description": "12 GB RAM | 256 GB ROM\n17.27 cm (6.8 inch) Quad HD+ Display\n200MP + 50MP + 12MP + 10MP | 12MP Front Camera\n5000 mAh Battery\nSnapdragon 8 Gen 3 Processor",
+      "category": "smartphones",
+      "brand": "Samsung",
+      "price": 1450,
+      "discountPercentage": 5,
+      "stock": 44,
+      "thumbnail": "https://th.bing.com/th/id/OIP.KybY0QiPP1Hs1WXV6y9EPQHaHd?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+      "images": [
+        "https://th.bing.com/th/id/OIP.7VgrItTrgy1mbI0K9g2TygHaHc?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "https://th.bing.com/th/id/OIP.5v1yFpf1vV2h_K1HGNxq5gHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        "https://cdn.mobilesyrup.com/wp-content/uploads/2024/01/galaxy-s23-ultra.jpg",
+        "https://th.bing.com/th/id/OIP.KybY0QiPP1Hs1WXV6y9EPQHaHd?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      ],
+      "rating": 0
     }
   ],
   "categories": [
@@ -6368,6 +6426,12 @@
       "id": "46ca"
     },
     {
+      "value": "Samsung",
+      "label": "Samsung",
+      "checked": false,
+      "id": "35fe"
+    },
+    {
       "value": "Lenovo",
       "label": "Lenovo",
       "checked": false,
@@ -6460,7 +6524,7 @@
   ],
   "users": [
     {
-      "id": "9446",
+      "id": "1",
       "email": "advaitdhage00@gmail.com",
       "role": "user",
       "addresses": [
@@ -6486,37 +6550,52 @@
       "password": "User@123"
     },
     {
-      "id": "ad59",
+      "id": "2",
       "email": "kotarokatsura47@gmail.com",
       "addresses": [],
+      "role": "user",
       "password": "Zura@123"
     },
     {
-      "id": "3663",
+      "id": "3",
       "email": "hijikatatoshiro74@gmail.com",
+      "role": "user",
       "addresses": [],
       "password": "Konoyaro@12"
     },
     {
-      "id": "fb2b",
+      "id": "4",
       "email": "kurosakiichigo47@gmail.com",
+      "role": "user",
       "addresses": [],
       "password": "Bankai@123"
     },
     {
-      "id": "81ee",
+      "id": "5",
       "email": "Zura334@gmail.com",
-      "addresses": [],
-      "password": "Keijijaeof@3455"
+      "role": "user",
+      "addresses": [
+        {
+          "name": "Kotaro",
+          "email": "Katsura",
+          "phone": "3435454254",
+          "street": "In front of Shinsengumi",
+          "city": "Kabuki",
+          "state": "Tokyo",
+          "pinCode": "324323"
+        }
+      ],
+      "password": "Katsurada23"
     },
     {
-      "id": "e9a1",
+      "id": "6",
       "email": "natsumetakashi7@gmail.com",
+      "role": "user",
       "addresses": [],
       "password": "Busaineko@7"
     },
     {
-      "id": "3a6c",
+      "id": "7",
       "email": "admin@gmail.com",
       "password": "Admin@123",
       "addresses": [],
@@ -6527,222 +6606,311 @@
   "cart": [],
   "orders": [
     {
-      "id": "7c2b",
+      "id": "8e99",
       "items": [
         {
-          "id": "59be",
-          "title": "Electric Stove",
-          "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
-          "category": "kitchen-accessories",
-          "price": 49.99,
-          "brand": "Costco",
-          "discountPercentage": 16.64,
-          "rating": 4.84,
-          "stock": 41,
-          "tags": [
-            "kitchen appliances",
-            "cooktops"
+          "id": "f793",
+          "title": "OnePlus Nord 4",
+          "description": "The latest and greatest Nord. 5500mAh battery, 100W charger, Snapdragon 7 plus gen 3 with 1.2M+ antutu score and much more",
+          "category": "smartphones",
+          "brand": "OnePlus",
+          "price": 350,
+          "discountPercentage": 4,
+          "stock": 43,
+          "thumbnail": "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+          "images": [
+            "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+            "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+            "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1",
+            "https://th.bing.com/th/id/OIP.mGKHYRRtcwVOvJQPDV5yPgHaDt?pid=ImgDet&w=474&h=237&rs=1"
           ],
-          "sku": "D88AMROJ",
-          "weight": 9,
-          "dimensions": {
-            "width": 28.07,
-            "height": 11.43,
-            "depth": 20.68
+          "rating": 0,
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
           },
-          "warrantyInformation": "6 months warranty",
-          "shippingInformation": "Ships in 2 weeks",
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 336,
+      "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "7d1b",
+      "items": [
+        {
+          "id": "815b",
+          "title": "SAMSUNG Galaxy S24 Ultra",
+          "description": "12 GB RAM | 256 GB ROM\n17.27 cm (6.8 inch) Quad HD+ Display\n200MP + 50MP + 12MP + 10MP | 12MP Front Camera\n5000 mAh Battery\nSnapdragon 8 Gen 3 Processor",
+          "category": "smartphones",
+          "brand": "Samsung",
+          "price": 1450,
+          "discountPercentage": 5,
+          "stock": 44,
+          "thumbnail": "https://th.bing.com/th/id/OIP.KybY0QiPP1Hs1WXV6y9EPQHaHd?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+          "images": [
+            "https://th.bing.com/th/id/OIP.7VgrItTrgy1mbI0K9g2TygHaHc?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "https://th.bing.com/th/id/OIP.5v1yFpf1vV2h_K1HGNxq5gHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+            "https://cdn.mobilesyrup.com/wp-content/uploads/2024/01/galaxy-s23-ultra.jpg",
+            "https://th.bing.com/th/id/OIP.KybY0QiPP1Hs1WXV6y9EPQHaHd?w=187&h=188&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+          ],
+          "rating": 0,
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 1378,
+      "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "1f5a",
+      "items": [
+        {
+          "id": "b1bb",
+          "title": "iPhone 16 Pro Max",
+          "description": "iPhone 16 Pro Max 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Desert Titanium",
+          "category": "smartphones",
+          "brand": "Apple",
+          "price": 1700,
+          "discountPercentage": 3,
+          "stock": 15,
+          "thumbnail": "https://m.media-amazon.com/images/I/3164xgZ11EL._SY445_SX342_QL70_FMwebp_.jpg",
+          "images": [
+            "https://m.media-amazon.com/images/I/61+0gHhq1rL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/71ta3jyFvIL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/710SV4EG9SL._SX679_.jpg",
+            "https://m.media-amazon.com/images/I/3164xgZ11EL._SY445_SX342_QL70_FMwebp_.jpg"
+          ],
+          "rating": 0,
+          "quantity": 2,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 3298,
+      "totalItems": 2,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "bb5c",
+      "items": [
+        {
+          "id": "3b64",
+          "title": "Nike Baseball Cleats",
+          "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+          "category": "mens-shoes",
+          "price": 79.99,
+          "discountPercentage": 11.4,
+          "rating": 4.01,
+          "stock": 14,
+          "tags": [
+            "footwear",
+            "sports cleats"
+          ],
+          "brand": "Nike",
+          "sku": "81LRTRP5",
+          "weight": 7,
+          "dimensions": {
+            "width": 14.83,
+            "height": 19.16,
+            "depth": 28.98
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships overnight",
           "availabilityStatus": "In Stock",
           "reviews": [
             {
-              "rating": 4,
-              "comment": "Great product!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Samantha Howard",
-              "reviewerEmail": "samantha.howard@x.dummyjson.com"
-            },
-            {
-              "rating": 4,
-              "comment": "Awesome product!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Brayden Hill",
-              "reviewerEmail": "brayden.hill@x.dummyjson.com"
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "William Gonzalez",
+              "reviewerEmail": "william.gonzalez@x.dummyjson.com"
             },
             {
               "rating": 2,
-              "comment": "Very dissatisfied!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Addison Wright",
-              "reviewerEmail": "addison.wright@x.dummyjson.com"
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.623Z",
+              "reviewerName": "Gabriel Mitchell",
+              "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
             }
           ],
-          "returnPolicy": "No return policy",
-          "minimumOrderQuantity": 8,
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 3,
           "meta": {
-            "createdAt": "2024-05-23T08:56:21.621Z",
-            "updatedAt": "2024-05-23T08:56:21.621Z",
-            "barcode": "9184442726039",
+            "createdAt": "2024-05-23T08:56:21.623Z",
+            "updatedAt": "2024-05-23T08:56:21.623Z",
+            "barcode": "0517654748946",
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Electric%20Stove/1.png",
-            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Electric%20Stove/2.png",
-            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Electric%20Stove/3.png",
-            "https://cdn.dummyjson.com/products/images/kitchen-accessories/Electric%20Stove/4.png"
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/3.png",
+            "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/4.png"
           ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/kitchen-accessories/Electric%20Stove/thumbnail.png",
-          "quantity": 2,
-          "user": "9446"
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-shoes/Nike%20Baseball%20Cleats/thumbnail.png",
+          "quantity": 1,
+          "user": "1"
         }
       ],
       "user": {
-        "id": "9446",
+        "id": "1",
         "email": "advaitdhage00@gmail.com",
+        "role": "user",
         "addresses": [
           {
             "name": "Advait Dhage",
             "email": "advaitdhage00@gmail.com",
-            "phone": "9764432219",
-            "street": "alka heights",
             "city": "Latur",
             "state": "Maharashtra",
-            "pinCode": "413512"
-          },
-          {
-            "name": "Advait Dhage",
-            "email": "advaitdhage00@gmail.com",
-            "phone": "9764432219",
-            "street": "Alka heights",
-            "city": "Latur",
-            "state": "Maharashtra",
-            "pinCode": "413512"
-          }
-        ],
-        "password": "User@123"
-      },
-      "totalAmount": 99.98,
-      "totalItems": 2,
-      "selectedAddress": {
-        "name": "Advait Dhage",
-        "email": "advaitdhage00@gmail.com",
-        "phone": "9764432219",
-        "street": "Alka heights",
-        "city": "Latur",
-        "state": "Maharashtra",
-        "pinCode": "413512"
-      },
-      "paymentMethod": "card",
-      "status": "Pending"
-    },
-    {
-      "id": "f23e",
-      "items": [
-        {
-          "id": "b530",
-          "title": "Protein Powder",
-          "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
-          "category": "groceries",
-          "price": 19.99,
-          "brand": "Costco",
-          "discountPercentage": 1.58,
-          "rating": 3.91,
-          "stock": 65,
-          "tags": [
-            "health supplements"
-          ],
-          "sku": "BT2QOWKZ",
-          "weight": 2,
-          "dimensions": {
-            "width": 5.62,
-            "height": 7.88,
-            "depth": 23.48
-          },
-          "warrantyInformation": "1 year warranty",
-          "shippingInformation": "Ships in 1-2 business days",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 1,
-              "comment": "Very dissatisfied!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Logan Lawson",
-              "reviewerEmail": "logan.lawson@x.dummyjson.com"
-            },
-            {
-              "rating": 3,
-              "comment": "Poor quality!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Julian James",
-              "reviewerEmail": "julian.james@x.dummyjson.com"
-            },
-            {
-              "rating": 1,
-              "comment": "Very unhappy with my purchase!",
-              "date": "2024-05-23T08:56:21.621Z",
-              "reviewerName": "Hazel Evans",
-              "reviewerEmail": "hazel.evans@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "No return policy",
-          "minimumOrderQuantity": 39,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.621Z",
-            "updatedAt": "2024-05-23T08:56:21.621Z",
-            "barcode": "2858973742684",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/groceries/Protein%20Powder/thumbnail.png",
-          "quantity": 2,
-          "user": "9446"
-        }
-      ],
-      "user": {
-        "id": "9446",
-        "email": "advaitdhage00@gmail.com",
-        "addresses": [
-          {
-            "name": "Advait Dhage",
-            "email": "advaitdhage00@gmail.com",
-            "phone": "9764432219",
-            "street": "alka heights",
-            "city": "Latur",
-            "state": "Maharashtra",
-            "pinCode": "413512"
-          },
-          {
-            "name": "Advait Dhage",
-            "email": "learnedfool47@gmail.com",
+            "pinCode": "413512",
             "phone": "9960775481",
-            "street": "Alka heights",
-            "city": "Latur",
-            "state": "Maharashtra",
-            "pinCode": "413512"
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
           }
         ],
         "password": "User@123"
       },
-      "totalAmount": 39.98,
-      "totalItems": 2,
+      "totalAmount": 71,
+      "totalItems": 1,
       "selectedAddress": {
         "name": "Advait Dhage",
-        "email": "learnedfool47@gmail.com",
-        "phone": "9960775481",
-        "street": "Alka heights",
+        "email": "advaitdhage00@gmail.com",
         "city": "Latur",
         "state": "Maharashtra",
-        "pinCode": "413512"
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
       },
-      "paymentMethod": "card",
-      "status": "Pending"
+      "paymentMethod": "cash",
+      "status": "cancelled"
     },
     {
-      "id": "1376",
+      "id": "3a6d",
       "items": [
         {
-          "id": "4850",
+          "id": "6373",
           "title": "Essence Mascara Lash Princess",
           "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
           "category": "beauty",
@@ -6797,113 +6965,21 @@
             "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
           },
           "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png"
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png"
           ],
           "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+          "deleted": true,
           "quantity": 5,
-          "user": "9446"
+          "user": "1"
         }
       ],
       "user": {
-        "id": "9446",
+        "id": "1",
         "email": "advaitdhage00@gmail.com",
-        "addresses": [
-          0,
-          {
-            "name": "Advait Dhage",
-            "email": "advaitdhage00@gmail.com",
-            "phone": "9764432219",
-            "street": "Alka heights",
-            "city": "Latur",
-            "state": "Maharashtra",
-            "pinCode": "413512"
-          }
-        ],
-        "password": "User@123"
-      },
-      "totalAmount": 49.95,
-      "totalItems": 5,
-      "selectedAddress": {
-        "name": "Advait Dhage",
-        "email": "advaitdhage00@gmail.com",
-        "phone": "9764432219",
-        "street": "Alka heights",
-        "city": "Latur",
-        "state": "Maharashtra",
-        "pinCode": "413512"
-      },
-      "paymentMethod": "cash",
-      "status": "Pending"
-    },
-    {
-      "id": "e416",
-      "items": [
-        {
-          "id": "8eeb",
-          "title": "Eyeshadow Palette with Mirror",
-          "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
-          "category": "beauty",
-          "price": 19.99,
-          "discountPercentage": 5.5,
-          "rating": 3.28,
-          "stock": 44,
-          "tags": [
-            "beauty",
-            "eyeshadow"
-          ],
-          "brand": "Glamour Beauty",
-          "sku": "MVCFH27F",
-          "weight": 3,
-          "dimensions": {
-            "width": 12.42,
-            "height": 8.63,
-            "depth": 29.13
-          },
-          "warrantyInformation": "1 year warranty",
-          "shippingInformation": "Ships in 2 weeks",
-          "availabilityStatus": "In Stock",
-          "reviews": [
-            {
-              "rating": 4,
-              "comment": "Very satisfied!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Liam Garcia",
-              "reviewerEmail": "liam.garcia@x.dummyjson.com"
-            },
-            {
-              "rating": 1,
-              "comment": "Very disappointed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Nora Russell",
-              "reviewerEmail": "nora.russell@x.dummyjson.com"
-            },
-            {
-              "rating": 5,
-              "comment": "Highly impressed!",
-              "date": "2024-05-23T08:56:21.618Z",
-              "reviewerName": "Elena Baker",
-              "reviewerEmail": "elena.baker@x.dummyjson.com"
-            }
-          ],
-          "returnPolicy": "30 days return policy",
-          "minimumOrderQuantity": 32,
-          "meta": {
-            "createdAt": "2024-05-23T08:56:21.618Z",
-            "updatedAt": "2024-05-23T08:56:21.618Z",
-            "barcode": "2817839095220",
-            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
-          },
-          "images": [
-            "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/1.png"
-          ],
-          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Eyeshadow%20Palette%20with%20Mirror/thumbnail.png",
-          "quantity": 1,
-          "user": "9446"
-        }
-      ],
-      "user": {
-        "id": "9446",
-        "email": "advaitdhage00@gmail.com",
+        "role": "user",
         "addresses": [
           {
             "name": "Advait Dhage",
@@ -6926,8 +7002,444 @@
         ],
         "password": "User@123"
       },
-      "totalAmount": 19.99,
+      "totalAmount": 45,
+      "totalItems": 5,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "delivered"
+    },
+    {
+      "id": "6457",
+      "items": [
+        {
+          "id": "bedd",
+          "title": "Powder Canister",
+          "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+          "category": "beauty",
+          "price": 14.99,
+          "discountPercentage": 18.14,
+          "rating": 3.82,
+          "stock": 59,
+          "tags": [
+            "beauty",
+            "face powder"
+          ],
+          "brand": "Velvet Touch",
+          "sku": "9EN8WLT2",
+          "weight": 8,
+          "dimensions": {
+            "width": 24.16,
+            "height": 10.7,
+            "depth": 11.07
+          },
+          "warrantyInformation": "2 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Ethan Thompson",
+              "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Great value for money!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Levi Hicks",
+              "reviewerEmail": "levi.hicks@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.618Z",
+              "reviewerName": "Hazel Gardner",
+              "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 25,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.618Z",
+            "updatedAt": "2024-05-23T08:56:21.618Z",
+            "barcode": "0516267971277",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/1.png",
+            "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/beauty/Powder%20Canister/thumbnail.png",
+          "deleted": true,
+          "quantity": 2,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 24,
+      "totalItems": 2,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "dispatched"
+    },
+    {
+      "id": "28dd",
+      "items": [
+        {
+          "id": "6490",
+          "title": "Dior J'adore",
+          "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+          "category": "fragrances",
+          "price": 89.99,
+          "discountPercentage": 17.44,
+          "rating": 3.31,
+          "stock": 91,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dior",
+          "sku": "E70NB03B",
+          "weight": 10,
+          "dimensions": {
+            "width": 21.51,
+            "height": 7,
+            "depth": 26.51
+          },
+          "warrantyInformation": "Lifetime warranty",
+          "shippingInformation": "Ships in 2 weeks",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Fast shipping!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Zoe Nicholson",
+              "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Excellent quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Addison Wright",
+              "reviewerEmail": "addison.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 4,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Clara Berry",
+              "reviewerEmail": "clara.berry@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 8,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "0887083199279",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/3.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dior%20J'adore/thumbnail.png",
+          "deleted": true,
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 74,
       "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "7b74",
+      "items": [
+        {
+          "id": "3901",
+          "title": "Apple Airpods 2nd Gen",
+          "description": "The Apple Airpods 2nd gen offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+          "category": "mobile-accessories",
+          "price": 159.99,
+          "discountPercentage": 4.52,
+          "rating": 4.68,
+          "stock": 53,
+          "tags": [
+            "electronics",
+            "wireless earphones"
+          ],
+          "brand": "Apple",
+          "sku": "H76W8TSP",
+          "weight": 3,
+          "dimensions": {
+            "width": 21.62,
+            "height": 9.82,
+            "depth": 17.15
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 3,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Aaliyah Hanson",
+              "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Waste of money!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Leah Gutierrez",
+              "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+            },
+            {
+              "rating": 3,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Jace Smith",
+              "reviewerEmail": "jace.smith@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "60 days return policy",
+          "minimumOrderQuantity": 3,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "3925144121840",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/1.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/2.png",
+            "https://cdn.dummyjson.com/products/images/mobile-accessories/Apple%20Airpods/3.png"
+          ],
+          "thumbnail": "https://www.myimaginestore.com/media/catalog/product/cache/4a48ac28cbb6e9c41470e5be5a6d3043/m/v/mv7n2_av3.jpg",
+          "quantity": 2,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 306,
+      "totalItems": 2,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "6138",
+      "items": [
+        {
+          "id": "8164",
+          "title": "Wooden Bathroom Sink With Mirror",
+          "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+          "category": "furniture",
+          "price": 799.99,
+          "discountPercentage": 11.22,
+          "rating": 3.26,
+          "stock": 95,
+          "tags": [
+            "furniture",
+            "bathroom"
+          ],
+          "brand": "Bath Trends",
+          "sku": "7OLTIEVO",
+          "weight": 6,
+          "dimensions": {
+            "width": 7.32,
+            "height": 22.64,
+            "depth": 12.37
+          },
+          "warrantyInformation": "6 months warranty",
+          "shippingInformation": "Ships in 3-5 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Highly recommended!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Charlotte Lopez",
+              "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Would not recommend!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "William Gonzalez",
+              "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Not worth the price!",
+              "date": "2024-05-23T08:56:21.620Z",
+              "reviewerName": "Ava Harrison",
+              "reviewerEmail": "ava.harrison@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "7 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.620Z",
+            "updatedAt": "2024-05-23T08:56:21.620Z",
+            "barcode": "7839797529453",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/1.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/2.png",
+            "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png",
+          "quantity": 2,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 1420,
+      "totalItems": 2,
       "selectedAddress": {
         "name": "Sakata Gintoki",
         "email": "shiroyasha47@gmail.com",
@@ -6936,6 +7448,331 @@
         "pinCode": "658776",
         "phone": "7675657643",
         "street": "Yorozuya Main 11th Street , Umibozu bypass"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "6575",
+      "items": [
+        {
+          "id": "6daa",
+          "title": "Dolce Shine Eau de",
+          "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+          "category": "fragrances",
+          "price": 69.99,
+          "discountPercentage": 11.47,
+          "rating": 2.68,
+          "stock": 3,
+          "tags": [
+            "fragrances",
+            "perfumes"
+          ],
+          "brand": "Dolce & Gabbana",
+          "sku": "1NBFK980",
+          "weight": 5,
+          "dimensions": {
+            "width": 17,
+            "height": 24.57,
+            "depth": 13.3
+          },
+          "warrantyInformation": "5 year warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "Low Stock",
+          "reviews": [
+            {
+              "rating": 4,
+              "comment": "Very satisfied!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Xavier Wright",
+              "reviewerEmail": "xavier.wright@x.dummyjson.com"
+            },
+            {
+              "rating": 1,
+              "comment": "Poor quality!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Mila Hernandez",
+              "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very happy with my purchase!",
+              "date": "2024-05-23T08:56:21.619Z",
+              "reviewerName": "Sophia Brown",
+              "reviewerEmail": "sophia.brown@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 9,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.619Z",
+            "updatedAt": "2024-05-23T08:56:21.619Z",
+            "barcode": "1939383392674",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/1.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/2.png",
+            "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
+          "deleted": true,
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 62,
+      "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "6a93",
+      "items": [
+        {
+          "id": "39da",
+          "title": "Apple MacBook Pro 14 Inch Space Grey",
+          "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+          "category": "laptops",
+          "price": 1999.99,
+          "discountPercentage": 9.25,
+          "rating": 3.13,
+          "stock": 39,
+          "tags": [
+            "laptops",
+            "apple"
+          ],
+          "brand": "Apple",
+          "sku": "QDKO6NRJ",
+          "weight": 4,
+          "dimensions": {
+            "width": 12.38,
+            "height": 21.55,
+            "depth": 27.95
+          },
+          "warrantyInformation": "1 month warranty",
+          "shippingInformation": "Ships in 1 week",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Hunter Gordon",
+              "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Would buy again!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "Emma Wilson",
+              "reviewerEmail": "emma.wilson@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Very pleased!",
+              "date": "2024-05-23T08:56:21.622Z",
+              "reviewerName": "David Martinez",
+              "reviewerEmail": "david.martinez@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "30 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.622Z",
+            "updatedAt": "2024-05-23T08:56:21.622Z",
+            "barcode": "3883623063065",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/1.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/2.png",
+            "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/laptops/Apple%20MacBook%20Pro%2014%20Inch%20Space%20Grey/thumbnail.png",
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 1815,
+      "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
+      },
+      "paymentMethod": "cash",
+      "status": "Pending"
+    },
+    {
+      "id": "a460",
+      "items": [
+        {
+          "id": "a9c1",
+          "title": "Rolex Submariner Watch",
+          "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+          "category": "mens-watches",
+          "price": 13999.99,
+          "discountPercentage": 0.82,
+          "rating": 2.97,
+          "stock": 35,
+          "tags": [
+            "watches",
+            "luxury watches"
+          ],
+          "brand": "Rolex",
+          "sku": "XFGRO0O5",
+          "weight": 5,
+          "dimensions": {
+            "width": 5.22,
+            "height": 27.59,
+            "depth": 16.93
+          },
+          "warrantyInformation": "No warranty",
+          "shippingInformation": "Ships in 1-2 business days",
+          "availabilityStatus": "In Stock",
+          "reviews": [
+            {
+              "rating": 2,
+              "comment": "Very dissatisfied!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Emily Brown",
+              "reviewerEmail": "emily.brown@x.dummyjson.com"
+            },
+            {
+              "rating": 5,
+              "comment": "Highly impressed!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Nova Cooper",
+              "reviewerEmail": "nova.cooper@x.dummyjson.com"
+            },
+            {
+              "rating": 2,
+              "comment": "Would not recommend!",
+              "date": "2024-05-23T08:56:21.624Z",
+              "reviewerName": "Julian James",
+              "reviewerEmail": "julian.james@x.dummyjson.com"
+            }
+          ],
+          "returnPolicy": "90 days return policy",
+          "minimumOrderQuantity": 1,
+          "meta": {
+            "createdAt": "2024-05-23T08:56:21.624Z",
+            "updatedAt": "2024-05-23T08:56:21.624Z",
+            "barcode": "6567997358364",
+            "qrCode": "https://assets.dummyjson.com/public/qr-code.png"
+          },
+          "images": [
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/1.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/2.png",
+            "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/3.png"
+          ],
+          "thumbnail": "https://cdn.dummyjson.com/products/images/mens-watches/Rolex%20Submariner%20Watch/thumbnail.png",
+          "quantity": 1,
+          "user": "1"
+        }
+      ],
+      "user": {
+        "id": "1",
+        "email": "advaitdhage00@gmail.com",
+        "role": "user",
+        "addresses": [
+          {
+            "name": "Advait Dhage",
+            "email": "advaitdhage00@gmail.com",
+            "city": "Latur",
+            "state": "Maharashtra",
+            "pinCode": "413512",
+            "phone": "9960775481",
+            "street": "Alka heights"
+          },
+          {
+            "name": "Sakata Gintoki",
+            "email": "shiroyasha47@gmail.com",
+            "city": "Kabuki",
+            "state": "Tokyo",
+            "pinCode": "658776",
+            "phone": "7675657643",
+            "street": "Yorozuya Main 11th Street , Umibozu bypass"
+          }
+        ],
+        "password": "User@123"
+      },
+      "totalAmount": 13885,
+      "totalItems": 1,
+      "selectedAddress": {
+        "name": "Advait Dhage",
+        "email": "advaitdhage00@gmail.com",
+        "city": "Latur",
+        "state": "Maharashtra",
+        "pinCode": "413512",
+        "phone": "9960775481",
+        "street": "Alka heights"
       },
       "paymentMethod": "cash",
       "status": "Pending"

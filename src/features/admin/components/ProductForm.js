@@ -70,16 +70,18 @@ function ProductForm() {
                   console.log(product);
                   if (params.id) {
                     product.id=params.id
+                    console.log('proId',product.id,'parId',params.id)
                     product.rating=selectedProduct.rating || 0
                     dispatch(updateProductAsync(product))
                     reset()
                   } else {
+                    console.log('created Product')
                     dispatch(createProductAsync(product))
                     reset()
                   }
                   
                 })}>
-      <div className="space-y-12 p-12">
+      <div className="space-y-12 p-12 bg-white">
         <div className="border-b border-gray-900/10 pb-12">
           <h2 className="text-base font-semibold leading-7 text-gray-900">
             Add Product

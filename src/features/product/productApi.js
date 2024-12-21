@@ -28,6 +28,7 @@ export function updateProduct(update) {
       headers: { 'content-type': 'application/json' },
     });
     const data = await response.json();
+    // console.log(data)
     resolve({ data });
   });
 }
@@ -59,7 +60,7 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   for(let key in sort){
     queryString+=`${key}=${sort[key]}&`
   }
-  console.log(pagination)
+  // console.log(pagination)
   for(let key in pagination){
     queryString+=`${key}=${pagination[key]}&`
   }
@@ -67,11 +68,11 @@ export function fetchProductsByFilters(filter,sort,pagination) {
   return new Promise(async(resolve) =>{
     //we will support multiple values in future
   const response=await fetch('http://localhost:8080/products?'+queryString)
-  const data=await response.json()
-  console.log(data)
-  const totalItems =data.items
+  const FilterData=await response.json()
+  //  console.log(FilterData)
+  const totalItems =FilterData.items
   // console.log(totalItems)
-  resolve({data:{products:data,totalItems:+totalItems}})
+  resolve({data:{products:FilterData,totalItems:+totalItems}})
   }
   );
 }
