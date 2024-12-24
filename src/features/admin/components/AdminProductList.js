@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import {useParams} from "react-router-dom"
+import { useParams } from "react-router-dom";
 import {
   selectAllProducts,
   fetchProductsByFiltersAsync,
@@ -72,8 +72,7 @@ export default function AdminProductList() {
   const [sort, setSort] = useState({});
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [page, setPage] = useState(1);
-  const params=useParams()
-  
+  const params = useParams();
 
   const handleFilter = (e, section, option) => {
     console.log(e.target.checked);
@@ -428,28 +427,34 @@ function ProductGrid({ products }) {
                         </div>
                         <div>
                           <p className="text-sm block font-medium text-gray-900">
-                            $
-                            {discountedPrice(product)}
+                            ${discountedPrice(product)}
                           </p>
                           <p className="text-sm block line-through font-medium text-gray-500">
                             ${product.price}
                           </p>
                         </div>
-                        {product.deleted&&<div>
-                          <p className='text-sm text-red-500'>Product deleted</p>
-                        </div>}
-                      </div>
+                        </div>
+                        {product.deleted && (
+                          <div>
+                            <p className="text-sm text-red-500">
+                              Product deleted
+                            </p>
+                          </div>
+                        )}
+                        {product.stock <= 0 && (
+                          <div>
+                            <p className="text-sm text-red-500">Out of Stock</p>
+                          </div>
+                        )}
                     </div>
                   </Link>
-                  <div className='mt-5'>
-                    
-                  <Link
-                  to={`/admin/product-form/edit/${product.id}`}
-                  className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Edit Product
-                </Link>
-                    
+                  <div className="mt-5">
+                    <Link
+                      to={`/admin/product-form/edit/${product.id}`}
+                      className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                    >
+                      Edit Product
+                    </Link>
                   </div>
                 </div>
               ))}

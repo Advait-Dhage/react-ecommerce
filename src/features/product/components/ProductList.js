@@ -8,6 +8,7 @@ import {
   selectCategories,
   fetchBrandsAsync,
   fetchCategoriesAsync,
+  selectProductListStatus
 } from "../productSlice";
 import {
   ChevronLeftIcon,
@@ -37,6 +38,8 @@ import {
 import { Link } from "react-router-dom";
 import { discountedPrice, ITEMS_PER_PAGE } from "../../../app/constants";
 import Pagination from "../../common/Pagination";
+import { Oval } from "react-loader-spinner";
+import { use } from "react";
 
 const sortOptions = [
   { name: "Best Rating", sort: "-rating", current: false },
@@ -51,19 +54,19 @@ function classNames(...classes) {
 export default function ProductList() {
   const dispatch = useDispatch();
   const products = useSelector(selectAllProducts);
-  const brands=useSelector(selectBrands)
-  const categories=useSelector(selectCategories)
-  const totalItems=useSelector(selectTotalItems)
+  const brands = useSelector(selectBrands);
+  const categories = useSelector(selectCategories);
+  const totalItems = useSelector(selectTotalItems);
   const filters = [
     {
       id: "category",
       name: "Categories",
-      options: categories
+      options: categories,
     },
     {
       id: "brand",
       name: "Brands",
-      options: brands
+      options: brands,
     },
   ];
 
@@ -89,13 +92,11 @@ export default function ProductList() {
       newFilter[section.id].splice(index, 1);
     }
     if (newFilter[section.id].length === 0) {
-      delete newFilter[section.id];  // Remove the section if empty
+      delete newFilter[section.id]; // Remove the section if empty
     }
     console.log({ newFilter });
     setFilter(newFilter);
   };
-
-  
 
   const handleSort = (e, option) => {
     const sort = { _sort: option.sort };
@@ -104,7 +105,7 @@ export default function ProductList() {
   };
 
   const handlePage = (page) => {
-    console.log({page})
+    console.log({ page });
     setPage(page);
   };
 
@@ -115,18 +116,18 @@ export default function ProductList() {
   }, [dispatch, filter, sort, page]);
 
   useEffect(() => {
-    setPage(1)
-    console.log(typeof(products))
-    console.log(products)
-  }, [totalItems,sort])
+    setPage(1);
+    console.log(typeof products);
+    console.log(products);
+  }, [totalItems, sort]);
 
-  useEffect(()=>{
-    dispatch(fetchBrandsAsync())
-    dispatch(fetchCategoriesAsync())
-  },[])
-  
+  useEffect(() => {
+    dispatch(fetchBrandsAsync());
+    dispatch(fetchCategoriesAsync());
+  }, []);
 
   return (
+    
     <div>
       <div className="bg-white">
         <div>
@@ -205,7 +206,10 @@ export default function ProductList() {
 
               <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-4">
                 {/* Filters */}
-                <DesktopFilter handleFilter={handleFilter} filters={filters}></DesktopFilter>
+                <DesktopFilter
+                  handleFilter={handleFilter}
+                  filters={filters}
+                ></DesktopFilter>
 
                 {/* Product grid */}
                 <div className="lg:col-span-3">
@@ -230,7 +234,7 @@ function MobileFilter({
   mobileFiltersOpen,
   setMobileFiltersOpen,
   handleFilter,
-  filters
+  filters,
 }) {
   return (
     <div>
@@ -321,7 +325,7 @@ function MobileFilter({
   );
 }
 
-function DesktopFilter({ handleFilter,filters }) {
+function DesktopFilter({ handleFilter, filters }) {
   return (
     <div>
       <form className="hidden lg:block">
@@ -381,18 +385,27 @@ function DesktopFilter({ handleFilter,filters }) {
   );
 }
 
-
 function ProductGrid({ products }) {
+  const status=useSelector(selectProductListStatus)
   return (
     <div>
       <div className="bg-white">
         <div className="mx-auto max-w-2xl px-4 py-0 sm:px-6 sm:py-0 lg:max-w-7xl lg:px-8">
           <div className="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
+            {
+              status==='loading'?(<Oval
+                visible={true}
+                height="80"
+                width="80"
+                color="#4fa94d"
+                ariaLabel="oval-loading"
+                wrapperStyle={{}}
+                wrapperClass=""
+                />):null
+            }
             {products.data?.map((product) => (
-              <Link to={`/product-detail/${product.id}`}  key={product.id}>
-                <div
-                  className="group relative border-solid border-2 border-gray-200 p-4"
-                >
+              <Link to={`/product-detail/${product.id}`} key={product.id}>
+                <div className="group relative border-solid border-2 border-gray-200 p-4">
                   <img
                     alt={product.title}
                     src={product.thumbnail}
@@ -417,14 +430,23 @@ function ProductGrid({ products }) {
                     </div>
                     <div>
                       <p className="text-sm block font-medium text-gray-900">
-                        $
-                        {discountedPrice(product)}
+                        ${discountedPrice(product)}
                       </p>
                       <p className="text-sm block line-through font-medium text-gray-500">
                         ${product.price}
                       </p>
                     </div>
                   </div>
+                  {product.deleted && (
+                    <div>
+                      <p className="text-sm text-red-500">Product deleted</p>
+                    </div>
+                  )}
+                  {product.stock <= 0 && (
+                    <div>
+                      <p className="text-sm text-red-500">Out of Stock</p>
+                    </div>
+                  )}
                 </div>
               </Link>
             ))}

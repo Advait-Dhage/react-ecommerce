@@ -16,10 +16,10 @@ import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import { selectItems } from "../cart/cartSlice";
 import { selectLoggedInUser } from "../auth/authSlice";
+//todo:change the logo of your app
 
 const navigation = [
-  { name: "Dashboard", link: "#", user: true },
-  { name: "Team", link: "#", user: true },
+  { name: "Products", link: "/", user: true },
   { name: "Admin", link: "/admin", admin: true },
   { name: "Orders", link: "/admin/orders", admin: true },
 ];

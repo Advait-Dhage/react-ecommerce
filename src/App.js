@@ -29,7 +29,8 @@ import AdminProductDetailPage from "./pages/AdminProductDetailPage";
 import ProductForm from "./features/admin/components/ProductForm";
 import AdminProductFormPage from "./pages/AdminProductFormPage";
 import AdminOrdersPage from "./pages/AdminOrdersPage";
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css'; 
 const router = createBrowserRouter([
   {
     path: "/",
@@ -161,6 +162,7 @@ function App() {
   },[dispatch,user])
   return (
     <div className="App">
+      <ToastContainer/>
       <RouterProvider router={router} />
     </div>
   );
